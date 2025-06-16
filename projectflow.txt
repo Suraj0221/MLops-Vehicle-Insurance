@@ -1,3 +1,14 @@
+Workflow
+
+constants
+config_entity
+artifact_entity
+component
+pipeline
+app.py / demo.py
+
+--------------------------------------------------------------------------------------------------------------------
+
 1. Create project template by executing template.py file
 2. Write the code on setup.py and pyproject.toml file to import local packages
    
@@ -5,6 +16,7 @@
    conda env list - To see list on env
    conda create -n vehicle python=3.10 -y
    conda activate vehicle
+   
    add required modules to requirements.txt
    Do "pip install -r requirements.txt"
 4. Do a "pip list" on terminal to make sure you have local packages installed.
@@ -13,8 +25,8 @@
 5. Sign up to MongoDB Atlas and create a new project by just providing it a name then next next create.
 6. From "Create a cluster" screen, hit "create", Select M0 service keeping other services as default, hit "create deployment"
 7. Setup the username and password and then create DB user.
-8. Go to "network access" and add ip address - "0.0.0.0/0" so that we can access it from anywhere
-9. Go back to project >> "Get Connection String" >> "Drivers" >> {Driver:Python, Version:3.6 or later} 
+8. Go to "network access" and add ip address - "0.0.0>.0/0" so that we can access it from anywhere
+9. Go back to project >> "Get Connection String" > "Drivers" >> {Driver:Python, Version:3.6 or later} 
    >> copy and save the connection string with you(replace password). >> Done.
 10. Create folder "notebook" >> do step 11 >>  create file "mongoDB_demo.ipynb" >> select kernal>python kernal>vehicle>>
 11. Dataset added to notebook folder
